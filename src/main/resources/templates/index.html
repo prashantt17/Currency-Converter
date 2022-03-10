@@ -15,6 +15,13 @@
 		<p class="lead">
 			This is home page of Currency Conversion Application.
 		</p>
+		<div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li th:class="${actionName == 'converter'} ? 'active' : ''" ><a href="/converter">Converter</a></li>
+            <!-- <li th:class="${actionName == 'contact'} ? 'active' : ''" ><a href="/contact">Contact</a></li>   -->         
+          </ul>
+         
+        </div>
 		
 	</div>
 
